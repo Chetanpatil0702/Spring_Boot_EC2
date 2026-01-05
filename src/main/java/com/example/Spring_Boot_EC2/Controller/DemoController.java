@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class DemoController {
 
-    // added comment line on local
+    // added comment
     @GetMapping()
     ResponseEntity<String> msg(){
        return ResponseEntity.ok("Hii Work Properly...!");
