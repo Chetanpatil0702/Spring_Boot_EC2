@@ -15,4 +15,11 @@ public class DemoController {
     ResponseEntity<String> msg(){
        return ResponseEntity.ok("Hii Work Properly...!");
     }
+
+    @GetMapping()
+    ResponseEntity<String> msg1(){
+        return ResponseEntity.ok("Hii Chetan Properly...!");
+    }
+
+
 }
